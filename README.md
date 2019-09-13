@@ -21,3 +21,5 @@
 1. Nuget **Xamarin.Google.iOS.MobileAds** -Version **7.38.0**
 2. Inicializar las ads en el **MainActivity** **AppDelegate.Configure("appId")**
 3. ID del bloque de Anuncio para probar mientar activar el de producción **ca-app-pub-3940256099942544/2934735716**
+
+[Video](https://youtu.be/K__fy3ZzmbI)
