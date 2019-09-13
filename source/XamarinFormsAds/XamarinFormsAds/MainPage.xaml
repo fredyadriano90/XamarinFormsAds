@@ -3,7 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:controls="clr-namespace:XamarinFormsAds.Controls"
              mc:Ignorable="d"
+             xmlns:local="clr-namespace:XamarinFormsAds"
+             ios:Page.UseSafeArea="True"
              x:Class="XamarinFormsAds.MainPage">
 
     <Grid>
@@ -17,10 +21,10 @@
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
 
-        <BoxView Grid.Row="1"
-                 HeightRequest="50"
-                 BackgroundColor="Red"
-                 HorizontalOptions="FillAndExpand" />
+        <controls:AdControlView Grid.Row="1"
+                                HeightRequest="50"
+                                AdUnitId="{Static local:Constants.AdUnitIdTest}"
+                                HorizontalOptions="FillAndExpand" />
     </Grid>
 
 </ContentPage>
