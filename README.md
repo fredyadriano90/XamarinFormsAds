@@ -12,14 +12,14 @@
 1. Permisos requeridos
     1.1 **ACCESS_NETWORK_STATE**
     1.2 **INTERNET**
-2. Nuget **Xamarin.GooglePlayServices.Ads.Lite** -Version **71.1720.1**
+2. Nuget **Xamarin.GooglePlayServices.Ads.Lite** -Version usada en el video **71.1720.1**
 3. Inicializar las ads en el **MainActivity** **MobileAds.Initialize(ApplicationContext, "appId")**
-4. ID del bloque de Anuncio para probar mientar activar el de producción **ca-app-pub-3940256099942544/6300978111**
+4. ID del bloque de Anuncio para probar mientras si activa el de producción **ca-app-pub-3940256099942544/6300978111**
 
 ## iOS
 
-1. Nuget **Xamarin.Google.iOS.MobileAds** -Version **7.38.0**
+1. Nuget **Xamarin.Google.iOS.MobileAds** -Version usada en el video **7.38.0**
 2. Inicializar las ads en el **MainActivity** **AppDelegate.Configure("appId")**
-3. ID del bloque de Anuncio para probar mientar activar el de producción **ca-app-pub-3940256099942544/2934735716**
+3. ID del bloque de Anuncio para probar mientras se activa el de producción **ca-app-pub-3940256099942544/2934735716**
 
 [Video](https://youtu.be/K__fy3ZzmbI)
